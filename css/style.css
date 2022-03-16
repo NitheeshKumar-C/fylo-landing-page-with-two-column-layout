@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.top-section{
+    padding: 5% 5% 0 5%;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60%;
+}
+.logo-img{
+    width: 9rem;
+}
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* intro */
+.intro{
+    margin: 5% 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-left{
+    margin: 0;
+    padding: 0;
+}
+.intro-left h1{
+    margin-bottom: 3%;
+}
+.p1{
+    font-size: 1.2rem;
+}
+.illustration-1,.illustration-2{
+    width: 100%;
+}
+.email-form1,.email-form2{
+    margin-top: 3%;
+}
+.email-form1 input,.email-form2 input{
+    padding: 10px;
+    padding-left: 20px ;
+    width: 50%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.email-form1 button,.email-form2 button{
+    padding: 12px;
+    margin-left: 3%;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.342);
+}
+.error{
+    visibility: hidden;
+    color: red;
+    font-size: 15px;
+}
+.e1:invalid{
+    border: 1px solid red;
+}
+.email-form1:invalid .error{
+    visibility: visible;
+}
+
+/* benifits */
+.benifits{
+    margin: 10% 0 0 0;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+.benifits .bg-curve-desktop{
+    padding: 0;
+}
+.benifits-left,.benifits-right{
+    background-color: hsl(240, 75%, 98%);
+}
+.benifits-left{
+    padding: 5% 0% 5% 5%;
+}
+.benifits-left h2{
+    margin-bottom: 5%;
+}
+.benifits-left .blp{
+    margin-right: 25%;
+}
+.benifits-right{
+    padding: 5% 5% 5% 0;
+}
+.benifits-left a{
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    text-decoration: none;
+
+}
+.feature{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 7%;
+    width: 55%;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.11);
+}
+.feature p{
+    padding: 0;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+    width: 2.7rem;
+}
+.profile p,.profile h6{
+    margin: 0;
+    margin-left: 10px;
+}
+
+/* get-access */
+.get-access{
+    margin: 0;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 5% 5%;
+    justify-content: space-between;
+}
+.get-access button{
+    margin: 3% 0 0 0;
+    width: 50%;
+}
+.get-access .email-form2 p{
+    margin: 0;
+}
+.get-access .e1{
+    width: 80%;
+}
+.error2{
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.email-form2:invalid .error2{
+    display: block;
+}
+
+/* contactsection */
+.contact-footer{
+    color: white;
+    padding: 5% 5%;
+    background-color: hsl(243, 87%, 12%);
+}
+.contact-logo-img{
+    filter: brightness(0) invert(1);
+}
+.c-details{
+    margin: 5% 0;
+}
+.c-img{
+    margin-right: 20px;
+}
+.sm{
+    display: flex;
+}
+.fab{
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+
+}
+.attribution{
+    
+    font-weight: 600;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 3% 0;
+}
+.attribution a,.attribution p{
+    font-size: 1rem;
+}
+.fab:hover{
+    color:  hsl(239, 100%, 77%);
+    border: 1px solid  hsl(239, 100%, 77%);
+}
+.lp:hover{
+    color:  hsl(239, 100%, 77%);
+    cursor: pointer;
+}
+.email-form1 button:hover,.email-form2 button:hover{
+    background-color: hsl(224, 97%, 76%);
+}
+
+.benifits-left a:hover{
+    color: hsl(170, 56%, 56%);
+}
