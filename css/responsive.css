@@ -95,9 +95,8 @@
     }
 }
 @media (max-width:450px){
-    .email-form1 input{
+    .email-form1 input,.in{
         width: 100%;
-        margin-bottom: 5%;
     }
     .email-form1 button{
         width: 100%;
